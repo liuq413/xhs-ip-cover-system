@@ -79,12 +79,14 @@ Aspect ratio: 3:4
 
 四套内置友好吉祥物风格：
 
-- 🎨 **Cream Companion** — 温暖陪伴感，适合情感类、成长类
-- ⚡ **Black Efficiency** — 高效专业感，适合干货类、工具类
-- 🔧 **Utility Fieldwork** — 实操现场感，适合教程类、案例类
-- 🏃 **Street Sprint** — 活力行动感，适合激励类、挑战类
+| 风格 | 感觉 | 适用 | 示例 |
+|---|---|---|---|
+| 🎨 **Cream Companion** | 温暖陪伴感 | 情感类、成长类、新手科普 | ![Cream Companion](assets/variant-cream-companion.jpg) |
+| ⚡ **Black Efficiency** | 高效专业感 | 干货类、工具类、AI 工作流 | ![Black Efficiency](assets/variant-black-efficiency.jpg) |
+| 🔧 **Utility Fieldwork** | 实操现场感 | 教程类、案例类、项目落地 | ![Utility Fieldwork](assets/variant-utility-fieldwork.jpg) |
+| 🏃 **Street Sprint** | 活力行动感 | 激励类、挑战类、热点速推 | ![Street Sprint](assets/variant-street-sprint.jpg) |
 
-完整选择规则见 `references/style-variants.md`。
+完整选择规则与视觉特征说明见 `references/style-variants.md`。
 
 ## 使用要求
 
