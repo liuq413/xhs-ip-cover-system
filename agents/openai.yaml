@@ -1,0 +1,4 @@
+interface:
+  display_name: "XHS IP Cover System"
+  short_description: "Build reusable XHS IP cover systems."
+  default_prompt: "Create a 3:4 Xiaohongshu cover using my personal IP character system."
