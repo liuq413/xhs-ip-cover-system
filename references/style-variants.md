@@ -4,6 +4,10 @@
 
 Use for beginner explainers, basic tutorials, and soft educational content.
 
+**Example:**
+
+![Cream Companion](../assets/variant-cream-companion.jpg)
+
 Visual traits:
 
 - Cream or light khaki bear hat.
@@ -28,6 +32,10 @@ Cream Companion style: warm white and cream palette, soft bear-hat friendly masc
 
 Use for tool lists, AI tool workflows, efficiency systems, and prompt/tool content.
 
+**Example:**
+
+![Black Efficiency](../assets/variant-black-efficiency.jpg)
+
 Visual traits:
 
 - Black or dark gray bear hat.
@@ -51,6 +59,10 @@ Black Efficiency style: black bear-hat friendly mascot, clean white background, 
 
 Use for case studies, implementation, project workflows, and "from idea to execution" content.
 
+**Example:**
+
+![Utility Fieldwork](../assets/variant-utility-fieldwork.jpg)
+
 Visual traits:
 
 - Khaki or olive utility bear hat.
@@ -73,6 +85,10 @@ Utility Fieldwork style: khaki/olive bear-hat mascot, utility jacket, practical 
 ## Variant 4: Street Sprint
 
 Use for hot topics, challenges, fast-start tutorials, and high-hook covers.
+
+**Example:**
+
+![Street Sprint](../assets/variant-street-sprint.jpg)
 
 Visual traits:
 
