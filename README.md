@@ -81,11 +81,11 @@ Aspect ratio: 3:4
 
 | 🎨 Cream Companion<br>温暖陪伴感 · 情感/成长/新手科普 | ⚡ Black Efficiency<br>高效专业感 · 干货/工具/AI 工作流 |
 |:---:|:---:|
-| <img src="assets/variant-cream-companion.jpg" width="300"> | <img src="assets/variant-black-efficiency.jpg" width="300"> |
+| <img src="assets/variant-cream-companion.jpg" width="280" height="373"> | <img src="assets/variant-black-efficiency.jpg" width="280" height="373"> |
 
 | 🔧 Utility Fieldwork<br>实操现场感 · 教程/案例/项目落地 | 🏃 Street Sprint<br>活力行动感 · 激励/挑战/热点速推 |
 |:---:|:---:|
-| <img src="assets/variant-utility-fieldwork.jpg" width="300"> | <img src="assets/variant-street-sprint.jpg" width="300"> |
+| <img src="assets/variant-utility-fieldwork.jpg" width="280" height="373"> | <img src="assets/variant-street-sprint.jpg" width="280" height="373"> |
 
 完整选择规则与视觉特征说明见 `references/style-variants.md`。
 
