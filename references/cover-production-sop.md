@@ -24,7 +24,7 @@ Aspect ratio:
 Defaults:
 
 ```text
-Aspect ratio: 3:4
+Aspect ratio: 3:4 for Xiaohongshu covers; follow the user's requested ratio when provided
 Cover type: Xiaohongshu knowledge cover
 Style: high-contrast sticker collage
 Character mode: choose by content type
@@ -36,6 +36,15 @@ Success criteria:
 - The main title is short enough to read in a feed.
 - The reader promise is specific.
 - The topic can be explained in one sentence.
+
+Aspect-ratio rules:
+
+| Use case | Default ratio | Layout adjustment |
+|---|---|---|
+| Xiaohongshu cover or card | 3:4 | Vertical title-first layout; character usually in the lower third |
+| Article or social illustration | 16:9 | Horizontal composition; keep the title in a clear side or top area |
+| WeChat public-account cover | 21:9 | Very wide title-safe band; reduce character and information blocks |
+| Other ratio | User-specified | Rebuild the composition; do not stretch a 3:4 layout |
 
 ## Step 2: Choose Character Mode
 
@@ -94,7 +103,7 @@ Success criteria:
 Use this structure:
 
 ```text
-Create a Xiaohongshu cover image, vertical 3:4, polished commercial illustration style.
+Create a social cover or illustration in the requested aspect ratio: [aspect ratio], polished commercial illustration style.
 
 Topic: [topic]
 The main title must be large, clear, and readable: [main title]
@@ -122,13 +131,13 @@ No watermark.
 No real brand logo unless provided by the user.
 No unrelated props.
 No extra people.
-No garbled text.
+No garbled text. If the model is unreliable at Chinese typography, reserve a clean text-safe area and leave the final title for post-processing.
 No long English paragraphs.
 ```
 
 ## Step 6: Generate One Direction First
 
-For a new cover system, generate one direction first. Do not batch too many images before the user validates the direction.
+For a new cover system, generate one direction first. Do not batch too many images before the user validates the direction. If no image-generation tool is available, return the prompt, layout map, and post-processing instructions.
 
 Evaluate only:
 
@@ -146,6 +155,7 @@ Run three checks:
 1. Thumbnail check: title and topic are readable in a small mobile feed.
 2. Character check: the IP character remains recognizable.
 3. Information check: every sticker/card supports the topic.
+4. Ratio check: the output uses the requested dimensions without distortion or accidental cropping.
 
 Use `quality-checklist.md` for details.
 
@@ -205,4 +215,3 @@ For each style-test folder, include a note recording:
 - Visual keywords
 - Reuse prompt
 - Whether it should become a long-term style
-

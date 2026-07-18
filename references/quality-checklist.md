@@ -79,3 +79,17 @@ Fix if:
 - It is too subtle to compete in feed.
 - It is too loud for the creator's positioning.
 
+## 6. Text and Ratio Check
+
+Pass only if:
+
+- The canvas dimensions match the requested aspect ratio.
+- The image has no stretched or squashed embedded reference images.
+- Chinese text is legible, or a clean text-safe area is reserved for post-processing.
+- The title and character remain inside the safe area after platform cropping.
+
+Fix if:
+
+- The layout uses a 3:4 composition inside a wide banner.
+- Text is generated as unreadable pseudo-characters.
+- A reference image was cropped or distorted to fill a frame.

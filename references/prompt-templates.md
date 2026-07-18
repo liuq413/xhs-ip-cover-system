@@ -3,7 +3,7 @@
 ## Universal Cover Prompt
 
 ```text
-Create a Xiaohongshu cover image, vertical 3:4, polished commercial illustration style.
+Create a social cover or illustration in the requested aspect ratio: [aspect ratio], polished commercial illustration style.
 
 Topic: [topic]
 The main title must be large, clear, and readable: "[main title]"
@@ -34,7 +34,7 @@ The title must be readable in a small mobile feed.
 No watermark.
 No unrelated props.
 No extra people.
-No garbled text.
+No garbled text. If Chinese typography is unreliable, reserve a clean text-safe area and leave the final text for post-processing.
 No long English paragraph.
 No real brand logo unless provided by the user.
 ```
@@ -104,4 +104,3 @@ No garbled text.
 No long English paragraph.
 No real brand logo unless provided by the user.
 ```
-

@@ -12,7 +12,7 @@ The replacement process has three outputs:
 
 ## Step 1: Extract Fixed Recognition Points
 
-Ask the user for one or more character reference images. If no image is available, ask for a written description.
+Ask the user for one or more character reference images. If no image is available, ask for a written description. When several images are provided, establish one identity reference and label the others as outfit, accessory, pose, or scene references.
 
 Extract:
 
@@ -31,6 +31,14 @@ What can change:
 ```
 
 Keep no more than 5-7 fixed recognition points. Too many fixed traits make the character hard to adapt.
+
+Reference priority:
+
+1. Face and body identity reference: controls facial features, face shape, hair, and proportions.
+2. Outfit and accessory reference: controls clothing, hat, glasses, and other replaceable elements.
+3. Pose and scene reference: controls action, composition, and context only.
+
+Never use a scene or pose image to overwrite the identity reference.
 
 Good fixed traits:
 
@@ -139,7 +147,7 @@ Do not turn the character into a generic toy mascot.
 
 ## Step 6: Replace Sample Terms
 
-When adapting this skill, replace:
+When adapting this skill, replace the example terms below. They are placeholders, not required character settings:
 
 | Sample term | Replace with |
 |---|---|
@@ -153,6 +161,8 @@ When adapting this skill, replace:
 
 Before using the new system, generate four style-test covers with the same title and topic.
 
+For each test, keep the identity reference fixed and change only the style, outfit, props, or composition. Check the final aspect ratio and verify that the title remains readable after thumbnail reduction.
+
 Evaluate:
 
 1. Does the character still look like the same person?
@@ -161,4 +171,3 @@ Evaluate:
 4. Is the system too cute, too serious, or too generic?
 
 Only after this test should the user use the system for real content.
-

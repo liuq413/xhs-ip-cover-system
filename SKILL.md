@@ -1,6 +1,6 @@
 ---
 name: xhs-ip-cover-system
-description: Create reusable Xiaohongshu (小红书/XHS) cover image systems built around a personal IP character. Use when the user asks to design, generate, package, document, or standardize XHS covers, social-card covers, thumbnail systems, mascot/IP avatar cover workflows, or asks how to replace the sample character with their own IP style.
+description: Create reusable Xiaohongshu (小红书/XHS) cover and social-card systems around a personal IP character. Use when the user asks for a 小红书封面图、小红书卡片、文章配图、IP形象配图、Q版人物封面、个人品牌视觉、社交媒体封面, or asks to design, generate, package, document, standardize, or replace the sample character with their own IP style.
 ---
 
 # XHS IP Cover System
@@ -29,7 +29,7 @@ Never treat the character as decoration. The character must make the content fee
 7. Run thumbnail, character, and information-density checks.
 8. Iterate or archive.
 
-For the complete operational SOP, read `references/cover-production-sop.md`.
+For the complete operational SOP, read `references/cover-production-sop.md`. Read `references/replace-with-your-ip.md` when the user provides or wants to replace an IP reference image.
 
 ## Brief Questions
 
@@ -50,6 +50,8 @@ Aspect ratio:
 
 If the user asks for a quick demo, make reasonable assumptions and generate one image first.
 
+If an image-generation tool is available, use it after the direction is confirmed. If no image-generation tool is available, return the complete prompt and a layout specification instead of claiming that an image was generated.
+
 ## Character Modes
 
 Use a **professional mode** for:
@@ -68,6 +70,8 @@ Use a **friendly mascot mode** for:
 - Recurring column covers
 
 When the user needs to replace the sample character with their own IP, read `references/replace-with-your-ip.md`.
+
+When the user provides multiple IP images, use the clearest front-facing image for facial identity, then use additional images only for outfit, hat, pose, or scene references. Do not merge conflicting facial traits without confirming which image is authoritative.
 
 ## Style Variants
 
@@ -90,8 +94,11 @@ Always include:
 - Layout structure
 - Relevant stickers/cards/icons
 - Negative constraints such as no watermark, no unrelated props, no extra characters
+- A text-safe area when the image model is unreliable at rendering Chinese text
 
 Use `references/prompt-templates.md` for prompt templates.
+
+For Chinese titles longer than a short phrase, prefer a clean text-safe layout and add the final text in a design or post-processing tool. Keep the requested aspect ratio; `3:4` is the default for Xiaohongshu covers, not a universal requirement.
 
 ## Quality Checks
 
@@ -102,6 +109,7 @@ Before finalizing, verify:
 - The cover communicates one main idea.
 - Information blocks support the topic.
 - The style can become a series, not a one-off.
+- The output dimensions and crop are correct for the requested ratio.
 
 Use `references/quality-checklist.md` for the full checklist.
 
